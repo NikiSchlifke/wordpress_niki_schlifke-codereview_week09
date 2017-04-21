@@ -1,0 +1,22 @@
+.site-header {
+  .site-branding {
+    background-color: $menu-current-background;
+    .site-title {
+      a {
+        text-decoration: none;
+        @include font-size(2);
+        @include strokeme;
+
+      }
+      margin-bottom: 0;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .site-description {
+      margin-top: 0;
+    }
+  }
+}
